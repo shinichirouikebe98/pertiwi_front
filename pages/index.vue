@@ -6,7 +6,6 @@
     <div class="container main" data-aos="fade-up">
         <div class="wrapper">
              <h1 align="center" style="margin-top:100px;">QUICK INTRODUCTIONS!</h1>
-             <!-- <div class="welcome" v-html="bestSellerArticle"></div> -->
         </div>
         
             

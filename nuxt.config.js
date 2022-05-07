@@ -201,8 +201,9 @@ export default {
   ],
 
   publicRuntimeConfig: {
-    imageURL: process.env.IMAGE_URL || 'http://locahost:8000',
-    secretKEY: process.env.SECRET_KEY
+    imageURL: process.env.IMAGE_URL || 'https://pertiwiclubbali.com/storage',
+    secretKEY: process.env.SECRET_KEY || '6Lflp8UfAAAAAKkJ-Q2CGCagk8_1SUlJZFXJJWsF',
+    siteKey: process.env.SITE_KEY || '6Lflp8UfAAAAAHkbcMAhKk1ISyNJ32FBhVsDKscc'
   },
 
   auth: {
