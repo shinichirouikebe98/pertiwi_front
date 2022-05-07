@@ -254,13 +254,13 @@ export default {
       },
     },
     "/api/admin":{
-      target: "http://localhost:8000/api/admin",
+      target: "http://pertiwiclubbali.com/api/admin",
       pathRewrite: {
         "^/api/admin": ""
       },
     } ,
     "/api/web":{
-      target: "http://localhost:8000/api/web",
+      target: "http://pertiwiclubbali.com/api/web",
       pathRewrite: {
         "^/api/web": ""
       },
