@@ -140,6 +140,10 @@ export default {
 }
 </script>
 <style scoped>
+img{
+    width: 100% !important;
+    height: auto !important;
+}
 a{
     text-decoration: none;
 }

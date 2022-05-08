@@ -32,7 +32,6 @@ export default {
                 text.forEach((span,idx)=>{
                     setTimeout(()=>{
                         span.classList.add('active');
-                        console.log(span)
                     },(idx+1) * 400)
     
                 });

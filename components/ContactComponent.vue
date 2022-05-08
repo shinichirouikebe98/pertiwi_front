@@ -45,23 +45,24 @@
 
         <div class="maps">
             <h3>ADDRESS</h3>
-            <div class="map_address">Bongkasa Pertiwi, Kec. Abiansemal, Kabupaten Badung, Bali 80352</div>
+            <div class="map_address">Jl.Dewi Saraswati No 2 , Bongkasa Pertiwi, Kec. Abiansemal, Kabupaten Badung, Bali 80352</div>
             <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Bongkasa%20Pertiwi,%20Kec.%20Abiansemal,%20Kabupaten%20Badung,%20Bali%2080352&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        <a href="https://www.whatismyip-address.com"></a>
-                        <br>
-                        <a href="https://www.embedgooglemap.net"></a>
-                    </div>
-           </div>
+                <div class="gmap_canvas">
+                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=-8.46572009581312,%20115.23794200461074&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+               </div>
+            </div>
         </div>
 
 
+
+
+        
     </div>
 </template>
 <script>
+
 export default {
-    
+
 }
 </script>
 <style scoped>

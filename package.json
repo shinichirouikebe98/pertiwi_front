@@ -21,6 +21,7 @@
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
     "nuxt-canonical": "^1.0.6",
+    "nuxt-gmaps": "^1.2.10",
     "vue-gates": "^2.1.2"
   },
   "devDependencies": {

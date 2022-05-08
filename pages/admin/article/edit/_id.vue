@@ -2,7 +2,7 @@
     <div class="container" style="margin-top:30px;">
       
           <form @submit.prevent="updateArticle">
-            <div class="header"><h1>EDIT-BERITA</h1></div>
+            <div class="header"><h1>EDIT-ARTICLE</h1></div>
             <div class="form-layout">
               
               <div class="title">
