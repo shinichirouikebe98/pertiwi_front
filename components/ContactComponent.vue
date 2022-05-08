@@ -1,9 +1,8 @@
 <template>
     <div class="layouts" data-aos="fade">
-        <div class="sosmed">
-            
+        <div class="sosmed">           
             <div class="content whatsapp">
-                <img src="@/assets/img/contact/whatsapp.png" alt="">
+                <img src="@/assets/img/contact/whatsapp.png" alt="" style="margin:auto; width:120px; height:120px;">
                 <div class="info">
                     <div class="name"><h3>WHATSAPP</h3></div>
                     <div class="address"><h5>+62 361 467015 / +62 813 3859 7825</h5></div>
@@ -17,7 +16,7 @@
         
     
             <div class="content ig">
-                <img src="@/assets/img/contact/instagram.png" alt="">
+                <img src="@/assets/img/contact/instagram.png" alt="" style="margin:auto; width:120px; height:120px;">
                 <div class="info">
                     <div class="name"><h3>INSTAGRAM</h3></div>
                     <div class="address"><h5>pertiwiadventurebali</h5></div>
@@ -39,11 +38,9 @@
                 </div>
             </div>
 
-            
-
         </div>
 
-        <!-- <div class="maps">
+        <div class="maps">
             <h3>ADDRESS</h3>
             <div class="map_address">Jl.Dewi Saraswati No 2 , Bongkasa Pertiwi, Kec. Abiansemal, Kabupaten Badung, Bali 80352</div>
             <div class="mapouter">
@@ -51,7 +48,7 @@
                     <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=-8.46572009581312,%20115.23794200461074&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                </div>
             </div>
-        </div> -->
+        </div>
 
 
 

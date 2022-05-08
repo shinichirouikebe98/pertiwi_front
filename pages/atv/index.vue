@@ -6,7 +6,7 @@
             </div>
             <div class="content">
                 
-                <img src="@/assets/img/page/offers.jpeg" alt="">
+                <img src="@/assets/img/page/offers.webp" alt="">
                 <div class="article">
                     <h1 align="center">WHAT WE OFFER?</h1>
                     <p v-html="bannerArticle">
@@ -40,15 +40,20 @@
         </div>
         <div class="container" id="contact">
             <h1 align="center">CONTACT US</h1>
-            <ContactComponent/>
+            <LazyHydrate when-visible>
+                <ContactComponent/>
+            </LazyHydrate>
         </div>
         <div class="container">
-            <GaleryComponent :filenames="data" />
+            <LazyHydrate when-visible>
+                <GaleryComponent :filenames="data" />
+            </LazyHydrate>
         </div>
 
     </div>
 </template>
 <script>
+import LazyHydrate from 'nuxt-lazy-hydration'
 import ContactComponent from '@/components/ContactComponent'
 import PriceInclude from '@/components/PriceInclude'
 import GaleryComponent from '@/components/GaleryComponent'
@@ -85,7 +90,8 @@ export default {
         ContactComponent,
         PriceInclude,
         GaleryComponent,
-        PickUpSchedule
+        PickUpSchedule,
+        LazyHydrate
 
     },
     mounted(){
@@ -140,10 +146,7 @@ export default {
 }
 </script>
 <style scoped>
-img{
-    width: 100% !important;
-    height: auto !important;
-}
+
 a{
     text-decoration: none;
 }
@@ -244,6 +247,10 @@ h2{
         font-size: 1rem;
         word-break: break-all;
     }
+    img{
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 @media screen and (max-width: 480px){
     .content{
@@ -271,6 +278,10 @@ h2{
     }
     h1{
         font-size: 2.5em;
+    }
+    img{
+        width: 100% !important;
+        height: auto !important;
     }
 }
 

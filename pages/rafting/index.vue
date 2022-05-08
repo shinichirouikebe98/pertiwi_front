@@ -6,7 +6,7 @@
             </div>
             <div class="content">
                 
-                <img src="@/assets/img/page/rafting_top.jpg" alt="rafting">
+                <img src="@/assets/img/page/rafting_top.webp" alt="rafting">
                 <div class="article">
                     <h1 align="center">WHAT WE OFFER?</h1>
                     <p v-html="bannerArticle">
@@ -41,16 +41,21 @@
         </div>
         <div class="container" id="contact">
             <h1 align="center">CONTACT US</h1>
-            <ContactComponent/>
+            <LazyHydrate when-visible>
+                <ContactComponent/>
+            </LazyHydrate>
         </div>
         
         <div class="container">
-            <GaleryComponent :filenames ="data" />
+            <LazyHydrate when-visible>
+                <GaleryComponent :filenames="data" />
+            </LazyHydrate>
         </div>
 
     </div>
 </template>
 <script>
+import LazyHydrate from 'nuxt-lazy-hydration'
 import ContactComponent from '@/components/ContactComponent'
 import PriceInclude from '@/components/PriceInclude'
 import GaleryComponent from '@/components/GaleryComponent'
@@ -104,7 +109,8 @@ export default {
         ContactComponent,
         PriceInclude,
         GaleryComponent,
-        PickUpSchedule
+        PickUpSchedule,
+        LazyHydrate
 
     },
     data(){

@@ -73,7 +73,7 @@ img{
     align-items: center;
     justify-content: center;
     background-color: black;
-    background-image: url('@/assets/img/intro/intro.jpg');
+    background-image: url('@/assets/img/intro/intro.webp');
     background-size: cover;
     
 }

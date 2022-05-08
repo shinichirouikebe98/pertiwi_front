@@ -20,12 +20,17 @@
         </div>
 
         <div class="container" id="contact">
+            
             <h1 align="center">CONTACT US</h1>
-            <ContactComponent/>
+            
+            <LazyHydrate when-visible>
+                <ContactComponent/>
+            </LazyHydrate>
         </div>
     </div>
 </template>
 <script>
+import LazyHydrate from 'nuxt-lazy-hydration'
 import ContactComponent from '@/components/ContactComponent'
 
 export default {
@@ -39,6 +44,8 @@ export default {
     },
     components:{
         ContactComponent,
+        LazyHydrate
+
 
 
     },

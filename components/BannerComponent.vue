@@ -92,7 +92,7 @@ h1{
 .banner-atv{
     width: 98%;
     height: 80vh;
-    background-image: url('@/assets/img/banner/atv.jpg');
+    background-image: url('@/assets/img/banner/atv.webp');
     background-size: cover;
     /* border-radius: 20px; */
     margin: auto;
@@ -102,7 +102,7 @@ h1{
     width: 95%;
     height: 100%;
     background-size: cover;
-    background-image: url('@/assets/img/banner/rafting.jpg');
+    background-image: url('@/assets/img/banner/rafting.webp');
     /* border-radius: 20px; */
 }
 .btn-group{
