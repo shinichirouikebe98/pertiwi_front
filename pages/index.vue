@@ -154,7 +154,6 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
             For those of you who are curious about our activities, we provide interesting content on the most popular social media Youtube.
             </div>
         </div>
-        <LazyHydrate>
             <WebVideoList v-for="video in videos" 
                 :key="video.id" 
                 :link="video.link" 
@@ -164,7 +163,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 :user="video.user.name"
                 :update="video.updated_at"
             />
-        </LazyHydrate>
+
     <b-pagination v-model="videoPagination.current_page" :total-rows="videoPagination.total" :per-page="videoPagination.per_page"
        @change="changeVideoPage" align="right" class="mt-3">
     </b-pagination> 
@@ -178,9 +177,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 <p>Reach us by contacting the social media below, bookings will be very quickly responded to on WHATSAPP social media.</p> 
             </div>
             <div>
-            <LazyHydrate>
                 <ContactComponent/>
-            </LazyHydrate>
             </div>
         </div>
     </div>
@@ -188,7 +185,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
 
 </template>
 <script>
-import LazyHydrate from 'nuxt-lazy-hydration'
+
 import WebVideoList from '@/components/WebVideoList.vue'
 import ContactComponent from '@/components/ContactComponent'
 import BannerComponent from '@/components/BannerComponent'
@@ -207,7 +204,7 @@ export default {
        WebVideoList,
        ContactComponent,
        BannerComponent,
-       LazyHydrate
+
     },
     methods:{
         //change page pagination

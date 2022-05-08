@@ -41,20 +41,16 @@
         </div>
         <div class="container" id="contact">
             <h1 align="center">CONTACT US</h1>
-            <LazyHydrate when-visible>
                 <ContactComponent/>
-            </LazyHydrate>
         </div>
         <div class="container">
-            <LazyHydrate when-visible>
                 <GaleryComponent :filenames="data" />
-            </LazyHydrate>
         </div>
 
     </div>
 </template>
 <script>
-import LazyHydrate from 'nuxt-lazy-hydration'
+
 import ContactComponent from '@/components/ContactComponent'
 import PriceInclude from '@/components/PriceInclude'
 import GaleryComponent from '@/components/GaleryComponent'
@@ -96,7 +92,7 @@ export default {
         PriceInclude,
         GaleryComponent,
         PickUpSchedule,
-        LazyHydrate
+
 
     },
     methods:{
