@@ -1,6 +1,7 @@
 <template>
     <div class="container-fluid" style="margin-top:30px"  data-aos="fade">
         <h1 align="center">WHAT WE OFFER?</h1>
+        
         <div class="banner-box-top">
             <div class="banner-paintball">
                 <div class="jargon-group">
@@ -101,7 +102,7 @@ h1{
     width: 95%;
     height: 100%;
     background-size: cover;
-    background-image: url('@/assets/img/banner/rafting.JPG');
+    background-image: url('@/assets/img/banner/rafting.jpg');
     /* border-radius: 20px; */
 }
 .btn-group{

@@ -1,6 +1,7 @@
 <template>
     <div class="container">
        <h1 align="center">SEND EMAIL TO US!</h1>
+       <h3 align="center">You Can Booking and Asking Any Information Via Mail </h3>
       
         <div class="layout">
             
@@ -320,6 +321,16 @@ h1{
 .authorization{
     align-self: start;
     width: 500px;
+}
+@media screen and (max-width: 768px){
+    .basic-info{
+        width: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .basic-info{
+        width: auto;
+    }
 }
 
 

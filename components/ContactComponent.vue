@@ -43,7 +43,7 @@
 
         </div>
 
-        <div class="maps">
+        <!-- <div class="maps">
             <h3>ADDRESS</h3>
             <div class="map_address">Jl.Dewi Saraswati No 2 , Bongkasa Pertiwi, Kec. Abiansemal, Kabupaten Badung, Bali 80352</div>
             <div class="mapouter">
@@ -51,7 +51,7 @@
                     <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=-8.46572009581312,%20115.23794200461074&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                </div>
             </div>
-        </div>
+        </div> -->
 
 
 
