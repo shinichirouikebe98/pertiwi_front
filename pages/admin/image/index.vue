@@ -8,25 +8,12 @@
         <div class="photos" >
           <div v-for="image in images" :key="image.id"> 
             <nuxt-link :to="{name: 'admin-image-edit-id', params: {id: image.id}}">
-                <img  :src="`${$config.imageURL}/image/`+image.img" alt="">
+                <img  :src="`${$config.imageURL}/image/`+image.img" alt="" v-lazy-load>
             </nuxt-link>
             <b-button @click="deleteImage(image.id)" variant="outline-danger" style="margin-top:5px; width:100%;">DELETE</b-button>
              
           </div>
         </div>
-      <!-- <div class="list-content" v-for="berita in news" :key="berita.id">
-        <div class="basic-info">
-            <div class="uploaded">{{berita.created_at}}, &nbsp; Uploaded By :{{berita.user.name}}</div>
-            <div class="title">{{berita.title}}</div>
-        </div>
-        <div class="list-actions">
-            <ul>
-              <li><b-button variant="outline-info" :to="{name: 'admin-news-detail-id', params: {id: berita.id}}">DETAIL</b-button></li>
-              <li><b-button variant="outline-warning" :to="{name: 'admin-news-edit-id', params: {id: berita.id}}">UPDATE</b-button></li>
-              <li><b-button variant="outline-danger"  @click="deleteBerita(berita.id)">DELETE</b-button></li>
-            </ul>
-        </div>
-      </div> -->
 
     </div>
 

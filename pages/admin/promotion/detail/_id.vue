@@ -10,7 +10,7 @@
                         <div class="tanggal"><font color="red">{{tanggal}}</font>, Di Terbitkan Oleh : <font color="blue">{{user.name}}</font></div>
                     </div>
                     <div class="photo">
-                        <img :src="`${$config.imageURL}/promotion/`+gambar" alt="">
+                        <img :src="`${$config.imageURL}/promotion/`+gambar" alt="" v-lazy-load>
                     </div>
 
                 </div>

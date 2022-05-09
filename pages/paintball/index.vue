@@ -46,7 +46,9 @@
                 </LazyHydrate>
         </div>
         <div class="container">
-                <GaleryComponent :filenames="data" />
+                <LazyHydrate when-visible>
+                    <GaleryComponent :filenames="data" />
+                </LazyHydrate>
         </div>
 
     </div>

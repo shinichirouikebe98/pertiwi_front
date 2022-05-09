@@ -5,6 +5,7 @@
     <div class="search"><b-form-input v-model="search" @keypress.enter="searchData" placeholder="SEARCH - Press Enter After Typing Keyword" style="letter-spacing:1px"></b-form-input></div>
    
     <div class="layout">
+    <LazyHydrate when-visible>
       <VideoList v-for="video in videos" 
         :key="video.id" 
         :id="video.id"
@@ -16,6 +17,7 @@
         :update="video.updated_at"
         @deleteFunction="deleteVideo"
       />
+    </LazyHydrate>
     </div>
     
 
@@ -26,9 +28,11 @@
 
 </template>
 <script>
+import LazyHydrate from 'vue-lazy-hydration'
 import VideoList from '@/components/VideoList.vue'
 export default {
   components:{
+    LazyHydrate,
     VideoList
   },
   layout:'admin',
