@@ -57,9 +57,8 @@
     </div>
 </template>
 <script>
-
 export default {
-
+    
 }
 </script>
 <style scoped>
@@ -131,7 +130,7 @@ a{
     @media screen and (max-width: 1260px) {
         .layouts{
             grid-template-columns: auto;
-            grid-template: auto auto;
+            grid-template-rows: auto ,auto;
         }
         .content{
             width: 100%;
@@ -161,7 +160,7 @@ a{
     @media screen and (max-width: 520px) {
         .layouts{
             grid-template-columns: auto;
-            grid-template: auto auto;
+            grid-template-rows: auto ,auto;
         }
         .content{
             width: 100%;
@@ -171,7 +170,10 @@ a{
         .maps{
             margin-top: 30px;
             margin-bottom: 30px;
+
         }
+        
+
 
     }
 

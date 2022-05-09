@@ -41,7 +41,9 @@
         </div>
         <div class="container" id="contact">
             <h1 align="center">CONTACT US</h1>
-                <ContactComponent/>
+                <LazyHydrate when-visible>
+                    <ContactComponent />
+                </LazyHydrate>
         </div>
         <div class="container">
                 <GaleryComponent :filenames="data" />
@@ -50,7 +52,7 @@
     </div>
 </template>
 <script>
-
+import LazyHydrate from 'vue-lazy-hydration'
 import ContactComponent from '@/components/ContactComponent'
 import PriceInclude from '@/components/PriceInclude'
 import GaleryComponent from '@/components/GaleryComponent'
@@ -88,6 +90,7 @@ export default {
 
     },
     components:{
+        LazyHydrate,
         ContactComponent,
         PriceInclude,
         GaleryComponent,

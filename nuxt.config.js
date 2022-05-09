@@ -28,9 +28,11 @@ export default {
 
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/fav.png' },           
+      { rel: 'icon', type: 'image/x-icon', href: '/fav.png' }, 
+       
 
     ],
+
 
   },
     // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -114,11 +116,11 @@ export default {
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/scss/colors.scss'
+    '@/assets/scss/colors.scss',
+
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -183,8 +185,9 @@ export default {
     ['nuxt-lazy-load', {
       directiveOnly:true
     }]
+
   ],
-  
+
   robots: {
     UserAgent: '*',
     Disallow: '/admin'
@@ -202,6 +205,10 @@ export default {
     },
     
     '~/plugins/vue-gates',
+    '~/plugins/lazy-hydrate.js'
+
+
+
   ],
 
   publicRuntimeConfig: {

@@ -3,7 +3,6 @@
         <div class="video">
             <iframe :src="link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen v-lazy-load></iframe>
         </div>
-        
         <div class="basic-info">
             <div class="title">
                 {{title}}
@@ -15,6 +14,7 @@
 
 </template>
 <script>
+
 export default {
     props:{id:Number,link:String,title:String,desc:String,user:String,upload:String,update:String},
 }

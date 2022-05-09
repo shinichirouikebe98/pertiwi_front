@@ -154,6 +154,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
             For those of you who are curious about our activities, we provide interesting content on the most popular social media Youtube.
             </div>
         </div>
+        <LazyHydrate when-visible>
             <WebVideoList v-for="video in videos" 
                 :key="video.id" 
                 :link="video.link" 
@@ -163,6 +164,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 :user="video.user.name"
                 :update="video.updated_at"
             />
+        </LazyHydrate>
 
     <b-pagination v-model="videoPagination.current_page" :total-rows="videoPagination.total" :per-page="videoPagination.per_page"
        @change="changeVideoPage" align="right" class="mt-3">
@@ -177,7 +179,9 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 <p>Reach us by contacting the social media below, bookings will be very quickly responded to on WHATSAPP social media.</p> 
             </div>
             <div>
-                <ContactComponent/>
+                <LazyHydrate when-visible>
+                    <ContactComponent />
+                </LazyHydrate>
             </div>
         </div>
     </div>
@@ -189,6 +193,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
 import WebVideoList from '@/components/WebVideoList.vue'
 import ContactComponent from '@/components/ContactComponent'
 import BannerComponent from '@/components/BannerComponent'
+import LazyHydrate from 'vue-lazy-hydration'
 
 export default {
     head: {
@@ -201,6 +206,7 @@ export default {
         }
     },
     components:{
+       LazyHydrate,
        WebVideoList,
        ContactComponent,
        BannerComponent,
