@@ -2,19 +2,23 @@
 <div class="wrapper">
 
       <div class="layout-card" data-aos="fade-up"> 
-        <CardComponent 
-          v-for="menu in menus" :key="menu.number" 
-          :title="menu.title" :link="menu.link" 
-          :img="menu.img" 
-        />
+        <LazyHydrate when-visible>
+          <CardComponent 
+            v-for="menu in menus" :key="menu.number" 
+            :title="menu.title" :link="menu.link" 
+            :img="menu.img" 
+          />
+        </LazyHydrate>>
       </div>
 
       <div class="layout-card"  v-role='"Admin"'> 
-        <CardComponent
-          v-for="menu in supermenus" :key="menu.number" 
-          :title="menu.title" :link="menu.link" 
-          :img="menu.img" 
-        />
+        <LazyHydrate when-visible>
+          <CardComponent
+            v-for="menu in supermenus" :key="menu.number" 
+            :title="menu.title" :link="menu.link" 
+            :img="menu.img" 
+          />
+        </LazyHydrate>
       </div>
 
 
@@ -27,8 +31,12 @@
 
 </template>
 <script>
+import LazyHydrate from 'vue-lazy-hydration'
 import CardComponent from '../../../components/CardComponent.vue'
 export default {
+  components:{
+    LazyHydrate
+  },
   computed: {
     user() {
       return this.$auth.user
