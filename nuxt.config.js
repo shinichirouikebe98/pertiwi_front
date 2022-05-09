@@ -74,8 +74,8 @@ export default {
     routes(){
       const axios = require('axios')
         return Promise.all([
-            axios.get('http://localhost:8000/api/web/beritas/slug'),
-            axios.get('http://localhost:8000/api/web/promotions/slug')
+            axios.get('https://pertiwiclubbali/api/web/beritas/slug'),
+            axios.get('https://pertiwiclubbali/api/web/promotions/slug')
         ])
         .then(([beritas,promotions]) => {
 
@@ -180,10 +180,11 @@ export default {
 
     ['nuxt-canonical', { baseUrl: 'http//:localhost:3000' }],
 
-
-
-    
+    ['nuxt-lazy-load', {
+      directiveOnly:true
+    }]
   ],
+  
   robots: {
     UserAgent: '*',
     Disallow: '/admin'

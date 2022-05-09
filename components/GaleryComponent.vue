@@ -7,7 +7,7 @@
         <div class="photos">
 
           <div v-for="filename in filenames" :key="filename.img"> 
-                <img  :src="`${$config.imageURL}/image/`+filename.img" :alt="filename.name">
+                <img  :src="`${$config.imageURL}/image/`+filename.img" :alt="filename.name" v-lazy-load>
 
           </div>
         </div>

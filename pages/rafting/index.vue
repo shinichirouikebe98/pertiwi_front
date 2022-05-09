@@ -50,7 +50,7 @@
     </div>
 </template>
 <script>
-import LazyHydrate from 'nuxt-lazy-hydration'
+
 import ContactComponent from '@/components/ContactComponent'
 import PriceInclude from '@/components/PriceInclude'
 import GaleryComponent from '@/components/GaleryComponent'
@@ -105,7 +105,7 @@ export default {
         PriceInclude,
         GaleryComponent,
         PickUpSchedule,
-        LazyHydrate
+
 
     },
     data(){

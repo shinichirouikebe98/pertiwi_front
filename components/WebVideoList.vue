@@ -1,7 +1,7 @@
 <template>
     <div class="video-layout">
         <div class="video">
-            <iframe :src="link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <iframe :src="link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen v-lazy-load></iframe>
         </div>
         
         <div class="basic-info">

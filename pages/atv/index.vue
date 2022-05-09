@@ -49,11 +49,11 @@
     </div>
 </template>
 <script>
-import LazyHydrate from 'nuxt-lazy-hydration'
-import ContactComponent from '@/components/ContactComponent'
-import PriceInclude from '@/components/PriceInclude'
-import GaleryComponent from '@/components/GaleryComponent'
-import PickUpSchedule from '@/components/PickUpSchedule'
+
+// import ContactComponent from '@/components/ContactComponent'
+// import PriceInclude from '@/components/PriceInclude'
+// import GaleryComponent from '@/components/GaleryComponent'
+// import PickUpSchedule from '@/components/PickUpSchedule'
 export default {
     head: {
         title: 'Conquer Most Terrific Atv Ride Road in Bali',

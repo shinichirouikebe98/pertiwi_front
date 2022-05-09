@@ -12,7 +12,7 @@
             <div class="layout">
                 <div class="banner">
                     <div class="photo">
-                        <img src="@/assets/img/menu/b3.jpg" alt="Atv/Quadbike adventure" style="border-radius: 10px 10px 0px 0px;">
+                        <img src="@/assets/img/menu/b3.jpg" alt="Atv/Quadbike adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
                      </div>
                      <div class="activity-info">
                          <h3>ATV (QUADBIKE)</h3>
@@ -40,7 +40,7 @@ safe and suitable for beginners and professional
                 </div>
                 <div class="banner">
                     <div class="photo">
-                        <img src="@/assets/img/menu/p3.jpg" alt="Paintball adventure" style="border-radius: 10px 10px 0px 0px;">
+                        <img src="@/assets/img/menu/p3.jpg" alt="Paintball adventure" style="border-radius: 10px 10px 0px 0px; v-lazy-load">
                      </div>
                       <div class="activity-info">
                          <h3>PAINTBALL</h3>
@@ -65,7 +65,7 @@ you dont have to worry about it hurting while playing and battling your friends.
                 </div>
                 <div class="banner">
                     <div class="photo">
-                        <img src="@/assets/img/menu/r3.jpg" alt="Rafting adventure" style="border-radius: 10px 10px 0px 0px;">
+                        <img src="@/assets/img/menu/r3.jpg" alt="Rafting adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
                      </div>
                      <div class="activity-info">
                          <h3>RAFTING</h3>
