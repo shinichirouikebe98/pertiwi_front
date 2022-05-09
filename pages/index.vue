@@ -40,7 +40,7 @@ safe and suitable for beginners and professional
                 </div>
                 <div class="banner">
                     <div class="photo">
-                        <img src="@/assets/img/menu/p3.jpg" alt="Paintball adventure" style="border-radius: 10px 10px 0px 0px; v-lazy-load">
+                        <img src="@/assets/img/menu/p3.jpg" alt="Paintball adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
                      </div>
                       <div class="activity-info">
                          <h3>PAINTBALL</h3>
