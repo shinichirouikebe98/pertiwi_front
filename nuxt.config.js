@@ -41,14 +41,13 @@ export default {
   },
   //axios
   axios: {
-    // baseURL: 'http://localhost:8000',
     proxy: true
 
   },
 
   sitemap:{
     path: '/sitemap.xml',
-    hostname: 'http://localhost:3000',
+    hostname: 'https://pertiwi-front.vercel.app',
     cacheTime: 1000 * 60 * 15,
     gzip: true,
     generate: false,
