@@ -243,6 +243,11 @@ h3{
         font-size: 1rem;
         word-break: break-all;
     }
+
+    img{
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 @media screen and (max-width: 480px){
     .content{
@@ -267,6 +272,10 @@ h3{
     }
     h1{
         font-size: 2.5em;
+    }
+    img{
+        width: 100% !important;
+        height: auto !important;
     }
 }
 

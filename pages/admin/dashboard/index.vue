@@ -2,23 +2,23 @@
 <div class="wrapper">
 
       <div class="layout-card" data-aos="fade-up"> 
-        <LazyHydrate when-visible>
+
           <CardComponent 
             v-for="menu in menus" :key="menu.number" 
             :title="menu.title" :link="menu.link" 
             :img="menu.img" 
           />
-        </LazyHydrate>>
+
       </div>
 
       <div class="layout-card"  v-role='"Admin"'> 
-        <LazyHydrate when-visible>
+
           <CardComponent
             v-for="menu in supermenus" :key="menu.number" 
             :title="menu.title" :link="menu.link" 
             :img="menu.img" 
           />
-        </LazyHydrate>
+
       </div>
 
 

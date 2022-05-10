@@ -180,7 +180,7 @@ export default {
     ],
     '@nuxtjs/robots',
 
-    ['nuxt-canonical', { baseUrl: 'http//:localhost:3000' }],
+    ['nuxt-canonical', { baseUrl: 'https://pertiwi-front.vercel.app' }],
 
     ['nuxt-lazy-load', {
       directiveOnly:true
