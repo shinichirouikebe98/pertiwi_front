@@ -265,13 +265,13 @@ export default {
       },
     },
     "/api/admin":{
-      target: "https://pertiwi-front.vercel.app/api/admin",
+      target: "https://pertiwiclubbali.com/api/admin",
       pathRewrite: {
         "^/api/admin": ""
       },
     } ,
     "/api/web":{
-      target: "https://pertiwi-front.vercel.app/api/web",
+      target: "https://pertiwiclubbali.com/api/web",
       pathRewrite: {
         "^/api/web": ""
       },

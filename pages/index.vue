@@ -91,7 +91,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 </div>
             </div>
     </div>
-    <!---topics--->
+    -topics-
     <div class="container topics" data-aos="fade-up">
       <div class="wrapper">      
           <h1 align="center" style="margin-top:100px;">TOPICS</h1>
