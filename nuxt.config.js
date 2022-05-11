@@ -37,6 +37,7 @@ export default {
   },
     // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+   
     
   },
   //axios
@@ -264,13 +265,13 @@ export default {
       },
     },
     "/api/admin":{
-      target: "http://pertiwiclubbali.com/api/admin",
+      target: "https://pertiwi-front.vercel.app/api/admin",
       pathRewrite: {
         "^/api/admin": ""
       },
     } ,
     "/api/web":{
-      target: "http://pertiwiclubbali.com/api/web",
+      target: "https://pertiwi-front.vercel.app/api/web",
       pathRewrite: {
         "^/api/web": ""
       },

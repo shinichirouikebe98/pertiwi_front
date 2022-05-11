@@ -11,8 +11,8 @@
                     <b-alert show variant="danger">{{ validation.title[0] }}</b-alert>
                   </div>
               </div>
-              <div class="link">
-                    <input type="text" v-model="data.link" name="link" placeholder="Link"/>
+              <div class="id">
+                    <input type="text" v-model="data.link" name="Video Id" placeholder="Video Id"/>
                     <div v-if="validation.link" class="mt-2">
                         <b-alert show variant="danger">{{ validation.link[0] }}</b-alert>
                   </div>

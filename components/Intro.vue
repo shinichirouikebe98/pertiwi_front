@@ -7,7 +7,7 @@
         </span>
     </div>
     <div class="box">
-        <img src="@/assets/img/logo/Logo.png" alt="">
+        <img src="@/assets/img/logo/Logo.webp" alt="">
     </div>
     <div class="right-box">
         <span class="splash-text text-style" style="text-align:right;">WITH US</span>

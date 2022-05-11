@@ -6,6 +6,7 @@
    
     <div class="layout">
     <LazyHydrate when-visible>
+      <div>
       <VideoList v-for="video in videos" 
         :key="video.id" 
         :id="video.id"
@@ -17,6 +18,7 @@
         :update="video.updated_at"
         @deleteFunction="deleteVideo"
       />
+      </div>
     </LazyHydrate>
     </div>
     

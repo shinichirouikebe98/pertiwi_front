@@ -12,7 +12,7 @@
             <div class="layout">
                 <div class="banner">
                     <div class="photo">
-                        <img src="@/assets/img/menu/b3.jpg" alt="Atv/Quadbike adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
+                        <img src="@/assets/img/menu/b3.webp" alt="Atv/Quadbike adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
                      </div>
                      <div class="activity-info">
                          <h3>ATV (QUADBIKE)</h3>
@@ -40,7 +40,7 @@ safe and suitable for beginners and professional
                 </div>
                 <div class="banner">
                     <div class="photo">
-                        <img src="@/assets/img/menu/p3.jpg" alt="Paintball adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
+                        <img src="@/assets/img/menu/p3.webp" alt="Paintball adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
                      </div>
                       <div class="activity-info">
                          <h3>PAINTBALL</h3>
@@ -65,7 +65,7 @@ you dont have to worry about it hurting while playing and battling your friends.
                 </div>
                 <div class="banner">
                     <div class="photo">
-                        <img src="@/assets/img/menu/r3.jpg" alt="Rafting adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
+                        <img src="@/assets/img/menu/r3.webp" alt="Rafting adventure" style="border-radius: 10px 10px 0px 0px;" v-lazy-load>
                      </div>
                      <div class="activity-info">
                          <h3>RAFTING</h3>
@@ -155,6 +155,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
             </div>
         </div>
         <LazyHydrate when-visible>
+        <div>
             <WebVideoList v-for="video in videos" 
                 :key="video.id" 
                 :link="video.link" 
@@ -164,6 +165,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 :user="video.user.name"
                 :update="video.updated_at"
             />
+        </div>
         </LazyHydrate>
 
     <b-pagination v-model="videoPagination.current_page" :total-rows="videoPagination.total" :per-page="videoPagination.per_page"
@@ -182,6 +184,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 <LazyHydrate when-visible>
                     <ContactComponent />
                 </LazyHydrate>
+ 
             </div>
         </div>
     </div>
