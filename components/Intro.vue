@@ -167,6 +167,16 @@ img{
     .right-box{
         display: none;
     }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width:275px;
+        height: 275px;
+
+    }
 
 
 }

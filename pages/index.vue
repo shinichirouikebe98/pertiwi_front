@@ -91,7 +91,7 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
                 </div>
             </div>
     </div>
-    -topics-
+    <!-- -topics- -->
     <div class="container topics" data-aos="fade-up">
       <div class="wrapper">      
           <h1 align="center" style="margin-top:100px;">TOPICS</h1>
@@ -121,12 +121,12 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
     <!---promosi--->
     <div class="container promotions" v-show="promotions !== null"  data-aos="fade-up">
      <div class="wrapper">
-        <h1 align="center" style="margin-top:100px;">PROMOTION</h1>
+        <h1 align="center" style="margin-top:100px;">GET PROMO</h1>
         <div class="short-messege">Check Also And Don't Miss The Promos We Offer.</div>
      </div>
 
 
-      <div class="layout">
+      <div class="layout" v-if="promotions != ''">
             <div class="banner" v-for="promosi in promotions" :key="promosi.id">
                 <nuxt-link :to="{name: 'promotion-slug', params: {slug: promosi.id}}">
                     <div class="photo">
@@ -141,9 +141,15 @@ scenery as you do thrilling class 2-3 rapids and discover hidden waterfalls.
 
             </div>
       </div>
+
+      
     <b-pagination v-model="promotionPagination.current_page" :total-rows="promotionPagination.total" :per-page="promotionPagination.per_page"
-       @change="changePromotionPage" align="right" class="mt-3">
+       @change="changePromotionPage" align="right" class="mt-3" v-if="promotions != ''">
+
     </b-pagination> 
+          <div class="div" align="center" v-if="promotions == ''">
+          <span>PROMO COMING SOON!</span>
+      </div>
     </div> 
 
     <!---videolist--->
@@ -376,6 +382,13 @@ h1{
     color: #fff;
     text-decoration: none;
 }
+span{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+    color:#696773;
+    margin-left: 30px;
+    margin-top:30px
+}
 @media screen and (max-width: 1024px) {
    .layout{
         display: grid;
@@ -428,31 +441,8 @@ h1{
     }
 }
 
-span {
-  display: inline-block;
-  width: auto;
-  height: auto;
-  position: relative;
-}
 
-span::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: red;
-  z-index: -1;
-  animation: ripple 1s ease-out infinite;
-}
-@keyframes ripple {
-  from {
-    opacity: 1;
-    transform: scale(0);
-  }
-  to {
-    opacity: 0;
-    transform: scale(1.5);
-  }
-}
+
+
 
 </style>

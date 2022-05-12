@@ -90,7 +90,7 @@ export default {
     },
     methods:{
         getRaftingImage(){
-            this.$axios.get(`/api/web/images/atv`)
+            this.$axios.get(`/api/web/images/rafting`)
             .then(response => {
                 this.data = response.data.data;
             })

@@ -2,7 +2,7 @@
     <div class="container" style="margin-top:30px;">
       
           <form @submit.prevent="updatePromosi">
-            <div class="header"><h1>EDIT-BERITA</h1></div>
+            <div class="header"><h1>EDIT-PROMO</h1></div>
             <div class="form-layout">
               
               <div class="title">
@@ -26,7 +26,7 @@
                     </div>
               </div>
               <div class="submit">
-                    <input type="submit" value="EDIT PROMOSI">
+                    <input type="submit" value="EDIT PROMO">
               </div>
               </div>
           </form>
@@ -41,7 +41,7 @@ export default {
     //meta
     head() {
       return {
-        title: 'Edit - Promosi',
+        title: 'Edit - Promo',
       }
     },
     components: {

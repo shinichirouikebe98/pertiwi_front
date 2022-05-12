@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h1 style="letter-spacing:4px; margin-top:40px;">PROMOTION LIST</h1>
+    <h1 style="letter-spacing:4px; margin-top:40px;">PROMO LIST</h1>
 
-    <b-button :to="{name:'admin-promotion-create'}" variant="outline-primary" style="margin-left:5px;">+ TAMBAH PROMOSI</b-button>
+    <b-button :to="{name:'admin-promotion-create'}" variant="outline-primary" style="margin-left:5px;">+ TAMBAH PROMO</b-button>
     <div class="search"><b-form-input v-model="search" @keypress.enter="searchData" placeholder="SEARCH - Press Enter After Typing Keyword" style="letter-spacing:1px"></b-form-input></div>
 
     <div class="layout">

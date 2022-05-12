@@ -14,7 +14,7 @@ export default {
       {
          hid: 'description', 
          name: 'description',
-         content: 'Feel Most Breathtaking Atv Ride, Rafting and PaintbalI Bali With Us Pertiwi Adventure. We Serve More than 30000 Tourist Every Year, High Quality, Trusty, Worthy.' 
+         content: 'Feel Most Breathtaking Atv Ride, Rafting and Paintbali in Bali With Us Pertiwi Adventure. We Serve More than 30000 Tourist Every Year, High Quality, Trusty, Worthy.' 
       },
       { name: 'format-detection', content: 'telephone=6281338597825' },
 
@@ -22,7 +22,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'www.pertiwiadventures.com' },
       { hid: 'og:title', property: 'og:title', content: 'Most Breathtaking Atv Ride, Rafting, Paintball in Bali' },
-      { hid: 'og:description', property: 'og:description', content: 'Feel Most Breathtaking Atv Ride, Rafting and PaintbalI Bali With Us Pertiwi Adventure. We Serve More than 30000 Tourist Every Year, High Quality, Trusty, Worthy.' },
+      { hid: 'og:description', property: 'og:description', content: 'Feel Most Breathtaking Atv Ride, Rafting and PaintbalI in Bali With Us Pertiwi Adventure. We Serve More than 40000 Tourist Every Year, High Quality, Trusty, Worthy.' },
       { hid: 'og:image', property: 'og:image', content: '/menu/intro.jpg' },
 
 
@@ -48,7 +48,7 @@ export default {
 
   sitemap:{
     path: '/sitemap.xml',
-    hostname: 'https://pertiwi-front.vercel.app',
+    hostname: 'https://pertiwiadventure.com',
     cacheTime: 1000 * 60 * 15,
     gzip: true,
     generate: false,
@@ -180,7 +180,7 @@ export default {
     ],
     '@nuxtjs/robots',
 
-    ['nuxt-canonical', { baseUrl: 'https://pertiwi-front.vercel.app' }],
+    ['nuxt-canonical', { baseUrl: 'https://pertiwiadventure.com' }],
 
     ['nuxt-lazy-load', {
       directiveOnly:true
