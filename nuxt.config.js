@@ -48,7 +48,7 @@ export default {
 
   sitemap:{
     path: '/sitemap.xml',
-    hostname: 'https://pertiwiadventure.com',
+    hostname: 'https://www.pertiwiadventure.com',
     cacheTime: 1000 * 60 * 15,
     gzip: true,
     generate: false,
@@ -76,8 +76,8 @@ export default {
     routes(){
       const axios = require('axios')
         return Promise.all([
-            axios.get('https://pertiwiclubbali/api/web/beritas/slug'),
-            axios.get('https://pertiwiclubbali/api/web/promotions/slug')
+            axios.get('https://pertiwiclubbali.com/api/web/beritas/slug'),
+            axios.get('https://pertiwiclubbali.com/api/web/promotions/slug')
         ])
         .then(([beritas,promotions]) => {
 
@@ -190,7 +190,9 @@ export default {
 
   robots: {
     UserAgent: '*',
-    Disallow: '/admin'
+    Disallow: '/admin',
+    Sitemap: 'https://pertiwiadventure.com/sitemap.xml'
+
   },
   styleResources: {
     scss: ['./assets/scss/*.scss']
