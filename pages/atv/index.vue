@@ -53,7 +53,7 @@ import LazyHydrate from 'vue-lazy-hydration'
 
 export default {
     head: {
-        title: 'Conquer Most Terrific Atv Ride Road in Bali',
+        title: 'Conquer Most Terrific Atv Quad Road in Bali',
 
         htmlAttrs: {
             lang: 'en'
@@ -65,7 +65,7 @@ export default {
             {
                 hid: 'description', 
                 name: 'description',
-                content: 'Best and Most Longest Atv Ride Road in Bali , With Us Pertiwi Adventure We Provide Terrific Atv Ride For 2 Hours Long . Get Ready to Conquesr and Challenge Our Tracks.' 
+                content: 'Best and Most Longest Atv Quad Ride Road in Bali , With Us Pertiwi Adventure We Provide Terrific Atv Ride For 2 Hours Long . Get Ready to Conquesr and Challenge Our Tracks.' 
             },
             { name: 'format-detection', content: 'telephone=6281338597825' },
 

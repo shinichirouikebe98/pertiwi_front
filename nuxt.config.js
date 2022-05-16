@@ -4,7 +4,7 @@ import axios from 'axios'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Most Breathtaking Atv Ride, Rafting, Paintball in Bali',
+    title: 'Most Breathtaking Atv Quad, Rafting, Paintball in Bali',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,7 +14,7 @@ export default {
       {
          hid: 'description', 
          name: 'description',
-         content: 'Feel Most Breathtaking Atv Ride, Rafting and Paintbali in Bali With Us Pertiwi Adventure. We Serve More than 30000 Tourist Every Year, High Quality, Trusty, Worthy.' 
+         content: 'Feel Most Breathtaking Atv Quad Ride, Rafting and Paintbali in Bali With Us Pertiwi Adventure. We Serve More than 30000 Tourist Every Year, High Quality, Trusty, Worthy.' 
       },
       { name: 'format-detection', content: 'telephone=6281338597825' },
 
@@ -22,7 +22,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'www.pertiwiadventures.com' },
       { hid: 'og:title', property: 'og:title', content: 'Most Breathtaking Atv Ride, Rafting, Paintball in Bali' },
-      { hid: 'og:description', property: 'og:description', content: 'Feel Most Breathtaking Atv Ride, Rafting and PaintbalI in Bali With Us Pertiwi Adventure. We Serve More than 40000 Tourist Every Year, High Quality, Trusty, Worthy.' },
+      { hid: 'og:description', property: 'og:description', content: 'Feel Most Breathtaking Atv Quad Ride, Rafting and PaintbalI in Bali With Us Pertiwi Adventure. We Serve More than 40000 Tourist Every Year, High Quality, Trusty, Worthy.' },
       { hid: 'og:image', property: 'og:image', content: '/menu/intro.jpg' },
 
 
