@@ -75,7 +75,7 @@ export default {
             },
             { name: 'format-detection', content: 'telephone=6281338597825' },
 
-            { hid: 'og:site_name', property: 'og:site_name', content: 'Pertiwi Adventure' },
+            { hid: 'og:site_name', property: 'og:site_name', content: 'Pertiwi Rafting Adventure' },
             { hid: 'og:type', property: 'og:type', content: 'website' },
             { hid: 'og:url', property: 'og:url', content: 'www.pertiwiadventures.com/rafting' },
             { hid: 'og:title', property: 'og:title', content: 'Challenge The Most Terrific Ayung River in Bali With Us' },

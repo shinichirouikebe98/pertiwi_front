@@ -61,7 +61,7 @@ import GaleryComponent from '@/components/GaleryComponent'
 import PickUpSchedule from '@/components/PickUpSchedule'
 export default {
     head: {
-        title: 'Conquer Most Terrific Atv Ride Road in Bali',
+        title: 'Pump Your Adrenaline Playing Paintball in Bali',
 
         htmlAttrs: {
             lang: 'en'
@@ -77,7 +77,7 @@ export default {
             },
             { name: 'format-detection', content: 'telephone=6281338597825' },
 
-            { hid: 'og:site_name', property: 'og:site_name', content: 'Pertiwi Adventure' },
+            { hid: 'og:site_name', property: 'og:site_name', content: 'Pertiwi Paintball Adventure' },
             { hid: 'og:type', property: 'og:type', content: 'website' },
             { hid: 'og:url', property: 'og:url', content: 'www.pertiwiadventures.com/paintball' },
             { hid: 'og:title', property: 'og:title', content: 'Pump Your Adrenaline Feels the Headshot With Us Pertiwi Paintball' },

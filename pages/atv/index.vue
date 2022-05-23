@@ -69,7 +69,7 @@ export default {
             },
             { name: 'format-detection', content: 'telephone=6281338597825' },
 
-            { hid: 'og:site_name', property: 'og:site_name', content: 'Pertiwi Adventure' },
+            { hid: 'og:site_name', property: 'og:site_name', content: 'Pertiwi Quad Adventure' },
             { hid: 'og:type', property: 'og:type', content: 'website' },
             { hid: 'og:url', property: 'og:url', content: 'www.pertiwiadventures.com/atv' },
             { hid: 'og:title', property: 'og:title', content: 'Conquer Most Terrific Atv Ride Road in Bali' },
