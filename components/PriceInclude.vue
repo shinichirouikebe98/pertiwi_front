@@ -1,7 +1,7 @@
 <template>
  <div class="container" data-aos="fade">
      <div class="box">   
-        <h1>PRICE INCLUDE</h1>
+        <div class="price">PRICE INCLUDE</div>
         <br>
         <div class="condition">
             <ul>
@@ -36,10 +36,11 @@ export default {
 .messege{
     width: 70%;
 }
-h1{
+
+.price{
     font-size: 4em;
     font-family: 'Kanit', sans-serif;
-        font-style: italic;
+    font-style: italic;
 }
 li{
     list-style-type: decimal;
@@ -47,8 +48,9 @@ li{
     font-size: 1rem;
     font-weight: 800;  
 }
+
 @media screen and (max-width: 480px) {
-    h1{
+    .price{
         font-size: 2.5em;
     }
 }

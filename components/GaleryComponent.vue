@@ -1,6 +1,8 @@
 <template>
     <div class="gallery" data-aos="fade">
-        <h1 align="center">OUR MEMORIES</h1>
+        <div class="galery-header" align="center">
+            OUR MEMORIES
+        </div>
         <div class="short-messege">
             <p>Our memories with guests who have enjoyed activities with us Pertiwi Adventure.</p> 
         </div>     
@@ -58,9 +60,10 @@ img:hover{
 img{
   transition: transform 0.2s;
 }
-h1{
+.galery-header{
     font-size: 4em;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif; 
+    font-style: italic;   
 }
 @media screen and (max-width: 720px) {
 .photos {
@@ -85,7 +88,7 @@ h1{
     column-count:         2;
     column-gap:           10px;
 }
-h1{
+.galery-header{
     font-size: 2.5em;
 }
 }

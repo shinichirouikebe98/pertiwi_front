@@ -8,7 +8,7 @@
                 
                 <img src="@/assets/img/page/paintball_top.webp" alt="">
                 <div class="article">
-                    <h1 align="center">WHAT WE OFFER?</h1>
+                    <h2 align="center">WHAT WE OFFER?</h2>
                     <p  v-html="bannerArticle">
 
                     </p>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="container" data-aos="fade">
-            <h1 align="center">PAINTBALL STANDART PACKAGE</h1>
+            <h2 align="center">PAINTBALL STANDART PACKAGE</h2>
             <div class="packet">
                 <div class="box">
                     <b-table striped hover :items="normal" :fields="table_fields">
@@ -86,7 +86,7 @@ export default {
         ],      
     },
     layout:'detail',
-    mounted(){
+    created(){
         this.getPaintballImage(),
         this.getBannerArticle()
 
@@ -175,7 +175,11 @@ h1{
     font-family: 'Kanit', sans-serif;
 }
 h2{
+    font-size: 4em;
     font-family: 'Kanit', sans-serif;
+
+    font-style: italic;
+
 }
 h3{
   font-family: 'Kanit', sans-serif;  
@@ -271,6 +275,9 @@ h3{
         word-wrap: none;
     }
     h1{
+        font-size: 2.5em;
+    }
+    h2{
         font-size: 2.5em;
     }
     img{

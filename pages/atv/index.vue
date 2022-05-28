@@ -8,7 +8,7 @@
                 
                 <img src="@/assets/img/page/offers.webp" alt="">
                 <div class="article">
-                    <h1 align="center">WHAT WE OFFER?</h1>
+                    <h2 align="center">WHAT WE OFFER?</h2>
                     <p v-html="bannerArticle">
 
                     </p>
@@ -18,7 +18,7 @@
 
         <div class="container" data-aos="fade">
 
-            <h1 align="center">ATV STANDART PACKAGE</h1>
+            <h2 align="center">ATV STANDART PACKAGE</h2>
             <div class="packet">          
                 <div class="box">
                     <b-table striped hover :items="normal" :fields="table_fields">
@@ -53,7 +53,7 @@ import LazyHydrate from 'vue-lazy-hydration'
 
 export default {
     head: {
-        title: 'Conquer Most Terrific Atv Quad Road in Bali',
+        title: 'Conquer Most Terrific Atv Quad Road in Ubud Bali',
 
         htmlAttrs: {
             lang: 'en'
@@ -65,7 +65,7 @@ export default {
             {
                 hid: 'description', 
                 name: 'description',
-                content: 'Best and Most Longest Atv Quad Ride Road in Bali , With Us Pertiwi Adventure We Provide Terrific Atv Ride For 2 Hours Long . Get Ready to Conquesr and Challenge Our Tracks.' 
+                content: 'Best and Most Longest Atv Quad Ride Road in Ubud Bali , With Us Pertiwi Adventure We Provide Terrific Atv Ride For 2 Hours Long . Get Ready to Conquesr and Challenge Our Tracks.' 
             },
             { name: 'format-detection', content: 'telephone=6281338597825' },
 
@@ -88,7 +88,7 @@ export default {
         
 
     },
-    mounted(){
+    created(){
         this.getAtvImage(),
         this.getBannerArticle()
     },
@@ -173,8 +173,9 @@ h1{
     font-family: 'Kanit', sans-serif;
 }
 h2{
-    font-size: 2.5em;
+    font-size: 4em;
     font-family: 'Kanit', sans-serif;
+    font-style: italic;
 }
 .content{
     background-color:#EEEBD3 ;
@@ -271,6 +272,9 @@ h2{
         word-wrap: none;
     }
     h1{
+        font-size: 2.5em;
+    }
+    h2{
         font-size: 2.5em;
     }
     img{

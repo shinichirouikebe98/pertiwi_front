@@ -1,7 +1,7 @@
 <template>
 <div class="container" data-aos="fade">
     <div class="box">
-        <h1 align="center">PICK-UP SCHEDULE</h1>
+        <h2 align="center">PICK-UP SCHEDULE</h2>
         <b-table striped hover :items="time" :fields="table_fields">
         </b-table>
     </div>
@@ -51,7 +51,8 @@ export default {
     flex-direction: column;
 
 }
-h1{
+
+h2{
     font-size: 4em;
     font-family: 'Kanit', sans-serif;
 
@@ -87,7 +88,7 @@ h1{
         word-break: break-all;
         word-wrap: none;
     }
-    h1{
+    h2{
         font-size: 2.5em;
     }
 }

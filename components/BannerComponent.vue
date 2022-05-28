@@ -1,6 +1,9 @@
 <template>
     <div class="container-fluid" style="margin-top:30px"  data-aos="fade">
-        <h1 align="center">WHAT WE OFFER?</h1>
+        <div class="header" align="center">
+            WHAT WE OFFER?
+        </div>
+
         
         <div class="banner-box-top">
             <div class="banner-paintball">
@@ -29,7 +32,9 @@
         </div>
 
         <div class="banner-box-bottom" style="margin-top:30px" data-aos="fade">
-            <h1 align="center">OUR BEST SELLER</h1>
+        <div class="header" align="center">
+           OUR BEST SELLER!
+        </div>
             <div class="banner-atv">
                 <div class="jargon atv">CONQUER</div>
                 <div class="jargon atv">THE BEST</div>
@@ -63,7 +68,7 @@
     margin:0px;
     padding: 0px;
 }
-h1{
+.header{
     font-size: 4em;
     font-family: 'Kanit', sans-serif;
     font-style: italic;
