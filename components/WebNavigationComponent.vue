@@ -120,6 +120,8 @@
   height: auto;
   z-index: 10;
   flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
 
       &.sticky_nav{
         position: -webkit-sticky;

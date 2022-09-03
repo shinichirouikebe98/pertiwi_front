@@ -5,7 +5,7 @@
                 <img src="@/assets/img/contact/whatsapp.png" alt="" style="margin:auto; width:120px; height:120px;">
                 <div class="info">
                     <div class="name"><h3>WHATSAPP</h3></div>
-                    <div class="address"><h5>+62 361 467015 / +62 813 3859 7825</h5></div>
+                    <div class="address"><h5>+62 361 465876 / +62 813 3859 7825</h5></div>
                     <div class="desc">The main communication platform that we use, we are very active on whatsapp, bookings etc will be responded to very quickly on whatsapp.</div>
                     <a href="https://wa.me/+6281338597825">
                         <b-button class="btn-grad">DIRECT TO OUR WHATSAPP</b-button>

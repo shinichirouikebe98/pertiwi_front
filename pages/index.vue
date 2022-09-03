@@ -424,7 +424,7 @@ span{
         width: 300px;
     }
     h1{
-        font-size: 3em;
+        font-size: 2.5em;
         
     }
     .welcome{

@@ -179,6 +179,10 @@ a{
     .banner-box-top{
         gap: 20px;
     }
+    .header{
+        line-height: 50px;
+        margin-bottom:30px;
+    }
     
 
 }
@@ -193,12 +197,17 @@ a{
         flex-direction: column;
         gap: 10px;
         width: auto;
+        margin:20px;
     }
     .book{
         display: none;
     }
     .btn-grad{
        width: 50%;
+    }
+    .header{
+        line-height: 50px;
+        margin-bottom:30px;
     }
 
 
