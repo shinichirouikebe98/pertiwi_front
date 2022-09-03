@@ -1,7 +1,7 @@
 <template>
-    <div class="container" data-aos="fade">
+    <div class="container">
         <div class="logo">
-          <img src="@/assets/img/logo/Logo.webp" alt="" style="margin:auto; width:230px; height:250px;">
+          <img src="@/assets/img/logo/Logo.webp" alt="" style="margin:auto; width:305px; height:340px;">
         </div>
         <h2 class="messege">
             Reach us by Taping or Clicking one of the Links Bellow.
