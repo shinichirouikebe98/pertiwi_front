@@ -178,7 +178,6 @@ export default {
         size: "normal" // String Size: 'compact', 'normal', 'invisible' (v2)
       }
     ],
-    '@nuxtjs/robots',
 
     ['nuxt-canonical', { baseUrl: 'https://pertiwiadventure.com' }],
 
@@ -188,12 +187,6 @@ export default {
 
   ],
 
-  robots: {
-    UserAgent: '*',
-    Disallow: '/admin',
-    Sitemap: 'https://pertiwiadventure.com/sitemap.xml'
-
-  },
   styleResources: {
     scss: ['./assets/scss/*.scss']
   },
