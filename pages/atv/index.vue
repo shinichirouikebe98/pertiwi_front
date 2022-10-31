@@ -67,7 +67,8 @@ export default {
                 name: 'description',
                 content: 'Best and Most Longest Atv Quad Ride Road in Ubud Bali , With Us Pertiwi Adventure We Provide Terrific Atv Ride For 2 Hours Long . Get Ready to Conquesr and Challenge Our Tracks.' 
             },
-            { name: 'format-detection', content: 'telephone=6281338597825' },
+            { hid: 'keywords', name: 'keywords', content: 'atv, bali, quadbike, ubud' },
+
 
             { hid: 'og:site_name', property: 'og:site_name', content: 'Pertiwi Quad Adventure' },
             { hid: 'og:type', property: 'og:type', content: 'website' },

@@ -4,7 +4,7 @@ import axios from 'axios'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Most Breathtaking Atv Quad, Rafting, Paintball in Bali',
+    title: 'The Most Terrific Quadbike ATV Ride, Rafting, Paintball Adventure in Bali',
     htmlAttrs: {
       lang: 'en'
     },
